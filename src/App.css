@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,128 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  color: #6da2e1;
+  font-size: 123%;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+ul .active {
+  color: #0054b9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.gray-block {
+  color: #90919d;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.container-top-tabs {
+  display: flex;
+  align-items: center;
+}
+
+.container-news-list p {
+  text-align: start;
+  color: #000;
+}
+
+.container-news-list img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.container-news-list a {
+  display: flex;
+  align-items: center;
+}
+
+.container-news-list div {
+  margin-top: 10px;
+}
+
+.container-rate-list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.container-rate-list span {
+  margin-left: 10px;
+}
+
+.currency {
+  font-weight: bold;
+}
+
+.widjet-title, .service-item, .card-item-title {
+  color: #0054b9;
+  font-size: 123%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card-item-title {
+  margin-bottom: 10px;
+}
+
+.service-item {
+  font-size: 100%;
+}
+
+.widjet-img {
+  width: 100px;
+}
+
+.widjet {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.services span {
+  margin-left: 10px;
+}
+
+.services {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.search-wrapper input {
+  display: flex;
+  border: 2px solid #fc0;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
 }
